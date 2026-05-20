@@ -15,22 +15,6 @@
 - REST API (FastAPI)
 - Docker-контейнеризация
 
-## Структура проекта
-├── inferences.py # FastAPI сервер
-├── client.py # Клиент для тестирования
-├── test_service.py # Unit-тесты
-├── Dockerfile # Docker образ
-├── docker-compose.yml # Docker Compose
-├── requirements.txt # Зависимости
-├── models/
-│ ├── waf_model.pkl # Обученная модель
-│ └── threshold.pkl # Порог классификации
-└── eda_modeling.ipynb # EDA и обучение модели
-
-
-
-## ML-модель
-
 ### Данные
 - Логи Web Application Firewall (WAF)
 - Размеченные данные: нормальные запросы и атаки
